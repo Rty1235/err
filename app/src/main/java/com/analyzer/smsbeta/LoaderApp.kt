@@ -1,3 +1,12 @@
+package com.analyzer.smsbeta
+
+import android.app.Application
+import android.content.Context
+import dalvik.system.DexClassLoader
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import java.io.File
+
 class LoaderApp : Application() {
     override fun onCreate() {
         super.onCreate()
